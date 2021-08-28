@@ -1,0 +1,29 @@
+.testimonials-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-block-start: 80px;
+  margin-block-end: 80px;
+}
+.testimonials-card {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 24px;
+  width: 1366px;
+  padding: 80px 10px;
+}
+.testimonials-image {
+  display: block;
+  margin: auto;
+}
+.testimonials-text {
+  font: var(--headlinde4);
+  text-align: center;
+}
+.testimonials-caption {
+font: var(--headlinde5);
+text-align: center;
+text-transform: uppercase;
+opacity: 50%;
+}
