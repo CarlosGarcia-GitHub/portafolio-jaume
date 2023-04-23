@@ -1,0 +1,14 @@
+.message {
+    font: var(--body3);
+    text-align: center;
+    padding: 40px 16px;
+    font: var(--headline5);
+}
+
+.message img {
+    width: 80px;
+}
+
+.message :first-child {
+    font-weight: 400;
+}

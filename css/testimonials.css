@@ -1,0 +1,15 @@
+.testimonials {
+    text-align: center;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 24px;
+}
+
+.testimonials p {
+    font-weight: bold;
+}
+
+.testimonials h5 {
+    font: var(--caption);
+    text-transform: uppercase;
+}
