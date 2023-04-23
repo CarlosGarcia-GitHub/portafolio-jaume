@@ -12,33 +12,37 @@
 </head>
 <body>
 
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-content">
+                <a href="index.html"><img src="./images/logo.png" width="70" height="20" alt="Logo de la página"></a>
+                <nav class="menu" aria-label="main-navigation">
+                    <ul>
+                        <li>
+                            <a class="is-active" href="#main">Hola</a>
+                        </li>
+                        <li>
+                            <a href="#projects">Proyectos</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Hablemos</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a target="_blank" href="https://drive.google.com/drive/folders/1pDAwhY9lNj-4m2ZREVbGgBaRT2328r29?usp=share_link"><button class="button">Currículum</button></a>
+            </div>
+        </div>
+    </header>
+
     <div class="wrapper">
-        
-        <header class="header">
-            <img src="./images/logo.png" width="70" height="20" alt="Logo de la página">
-            <nav class="menu" aria-label="main-navigation">
-                <ul>
-                    <li>
-                        <a class="is-active" href="#main">Hola</a>
-                    </li>
-                    <li>
-                        <a href="#project">Proyectos</a>
-                    </li>
-                    <li>
-                        <a href="#contacto">Hablemos</a>
-                    </li>
-                </ul>
-            </nav>
-            <button class="button">Currículum</button>
-        </header>
-    
+
         <section aria-label="main" class="hero" id="main">
             <div class="hero-image">
                 <img src="./images/jaume.png" width="338" height="330">
             </div>
             <div class="hero-description">
                 <h1>
-                    <span>!Hola a todos!</span>
+                    <span>¡Hola a todos!</span>
                     <span>Soy Jaume</span>
                 </h1>
                 <p>
@@ -46,11 +50,11 @@
                 </p>
                 <div class="social">
                     <a class="button-icon" href="tel:+56933426627"><img src="./icons/icon-phone.svg"></a>
-                    <a class="button-icon" href="tel:+56933426627"><img src="./icons/icon-important_mail.svg"></a>
-                    <a class="button-icon" href="tel:+56933426627"><img src="./icons/icon-instagram.svg"></a>
-                    <a class="button-icon" href="tel:+56933426627"><img src="./icons/icon-twitter_squared.svg"></a>
+                    <a class="button-icon" href="mailto:carlos060500@gmail.com"><img src="./icons/icon-important_mail.svg"></a>
+                    <a class="button-icon" href="#"><img src="./icons/icon-instagram.svg"></a>
+                    <a class="button-icon" href="#"><img src="./icons/icon-twitter_squared.svg"></a>
                     </div>
-                    <a href="https://jhakjhaa.com" class="button">Descargar Curriculum</a>
+                    <a target="_blank" href="https://drive.google.com/drive/folders/1pDAwhY9lNj-4m2ZREVbGgBaRT2328r29?usp=share_link" class="button">Descargar Curriculum</a>
                 </div>
             </section>
 
@@ -64,12 +68,12 @@
                 <img src="./icons/icons-down.svg" alt="Flecha apuntando hacia abajo">
             </section>
 
-            <div class="projects">
+            <div class="projects" id="projects">
                 <div class="projects-image">
                     <img src="./images/leonidas-esteban.png" alt="">
                 </div>
                 <div class="projects-description">
-                    <a class="title" href="https://leonidasesteban.com">LeonidasEsteban.com</a>
+                    <a target="_blank" class="title" href="https://leonidasesteban.com">LeonidasEsteban</a>
                     <p>Accede a más de 120 proyectos que te ayudarán a mejorar 
                         tus habilidades como desarrollador Front-End.</p>
                         <a target="_blank" href="https://github.com" class="button is-secondary">Ver Código</a>
@@ -92,7 +96,7 @@
                     <img src="./images/marvol.png" alt="">
                 </div>
                 <div class="projects-description">
-                    <a class="title" href="https://leonidasesteban.com">LeonidasEsteban.com</a>
+                    <a class="title" href="https://leonidasesteban.com" target="_blank">Marvol</a>
                     <p>Accede a más de 120 proyectos que te ayudarán a mejorar 
                         tus habilidades como desarrollador Front-End.</p>
                         <a target="_blank" href="https://github.com" class="button is-secondary">Ver Código</a>
@@ -100,18 +104,38 @@
                 </div>
             </div>
 
+            <section class="testimonials">
+                <img src="./images/user2.png" alt="Imágen de la parte superior de los testimonios">
+                <p>
+                    "Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".
+                </p>
+                <h5>
+                    Jason Lopez / Cofundador y Ceo de Marvol
+                </h5>
+        </section>
+
             <div class="projects">
                 <div class="projects-image">
                     <img src="./images/netnet.png" alt="">
                 </div>
                 <div class="projects-description">
-                    <a class="title" href="https://leonidasesteban.com">LeonidasEsteban.com</a>
+                    <a class="title" href="https://leonidasesteban.com" target="_blankF">Netnet</a>
                     <p>Accede a más de 120 proyectos que te ayudarán a mejorar 
                         tus habilidades como desarrollador Front-End.</p>
                         <a target="_blank" href="https://github.com" class="button is-secondary">Ver Código</a>
                         <a target="_blank" href="https://leonidasesteban.com" class="button">Ver Proyecto</a>
                 </div>
             </div>
+
+            <section class="testimonials">
+                <img src="./images/user3.png" alt="Imágen de la parte superior de los testimonios">
+                <p>
+                    "Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos".
+                </p>
+                <h5>
+                    Marco Cortez / Netnet
+                </h5>
+        </section>
 
             <form action="" method="POST" class="form">
                 <div class="form-content">
@@ -134,23 +158,23 @@
                 </div>
             </form>
 
-            <footer class="footer">
+            <footer class="footer" id="contact">
                 <div class="footer-content">
                     <div class="footer-logo">
-                        <img src="./images/logo.png" width="70" height="20" alt="Logo de la página">
+                        <a href="index.html"><img src="./images/logo-white.png" width="70" height="20" alt="Logo de la página"></a>
                     </div>
                         <div class="social">
                             <a class="button-icon" href="tel:+56933426627"><img src="./icons/icon-phone.svg"></a>
-                            <a class="button-icon" href="tel:+56933426627"><img src="./icons/icon-important_mail.svg"></a>
-                            <a class="button-icon" href="tel:+56933426627"><img src="./icons/icon-instagram.svg"></a>
-                            <a class="button-icon" href="tel:+56933426627"><img src="./icons/icon-twitter_squared.svg"></a>
+                            <a class="button-icon" href="mailto:carlos060500@gmail.com"><img src="./icons/icon-important_mail.svg"></a>
+                            <a class="button-icon" href="#"><img src="./icons/icon-instagram.svg"></a>
+                            <a class="button-icon" href="#"><img src="./icons/icon-twitter_squared.svg"></a>
                     </div>
                     <div class="footer-copyright">
                         <p>
-                            Hecho con el ❤️ por Carlos.
+                            Project by Carlos Garcia
                         </p>
                         <p>
-                            Copyright 2021 - Todos los derechos reservados.
+                            &copy Copyright 2023 - Todos los derechos reservados.
                         </p>
                     </div>
                 </div>
